@@ -1,7 +1,24 @@
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*moves the first item to the left and last item to the right and arrange the items in btw */
+    align-items: center;     
+    padding: 20px 50px;             /*20px top and bottom , 50px left and right*/
 }
 nav ul{
+    display: flex;                  /*arrange the flex items in a row*/
+    list-style: none;               /*remove the bullet points*/
+    padding: 0;
+    margin: 0;      
+    gap: 15px;                      /*add spaces btw the links*/
+}
+nav a{
+    text-decoration: none;          /* removes the lines under the links*/
+}
+.right-side{
     display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.menu-button{
+    display: none;
 }
