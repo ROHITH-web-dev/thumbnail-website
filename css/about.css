@@ -2,11 +2,35 @@
     padding: 50px;
     display: flex;
     gap: 50px;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: space-between;
 }
 #about img{
     width: 200px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 50px;
 }
 #about h1{
     font-size: 40px;
+    margin-bottom: 20px;
+}
+#about p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+#about a{
+    text-decoration: none;
+    background-color: #007BFF;
+    padding:12px 24px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+.about-content{
+    flex: 1;
+    max-width: 600px;
 }
